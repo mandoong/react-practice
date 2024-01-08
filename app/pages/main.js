@@ -62,6 +62,7 @@ export default function MainPage() {
               return <div>{x}, {y} : {v}</div>
             })}
           </div>
+          
           {win &&
           <div className=''>
             {palyer} palyer Win!
